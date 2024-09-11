@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Conexion;
 
+//Console.WriteLine("Hello, World!");
 
-Console.WriteLine("Hello, World!");
+var conexionEF = new ConexionEF();
+//conexionEF.NonQueryPeliculas();
+conexionEF.ObtenerEstados();
 
 namespace ConsoleApp.Clases.MensajeriaInstantanea
 {
